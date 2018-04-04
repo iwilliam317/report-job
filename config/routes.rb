@@ -1,10 +1,9 @@
 require 'sidekiq/web'
 
 Rails.application.routes.draw do
-  get 'reports/index'
 
-  get 'reports/create'
-
-  #sidekiq painel
+  #sidekiq panel
   mount Sidekiq::Web => '/sidekiq'
+
+  resources :reports, only: [:index, :create]
 end
