@@ -1,24 +1,16 @@
-# README
+# Report Job
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A simple application that generates a report and uses jobs to paralel process. Example taken from https://onebitcode.com/dominando-o-uso-de-jobs-no-rails/
 
 Things you may want to cover:
 
-* Ruby version
+* Redis
 
-* System dependencies
+* Sidekiq
 
-* Configuration
+* Run Sidekiq
 
-* Database creation
+``` 
+bundle exec sidekiq -q reports -c 8
+```
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
