@@ -1,6 +1,6 @@
 # Report Job
 
-A simple application that generates a report and uses jobs to paralel process. Example taken from https://onebitcode.com/dominando-o-uso-de-jobs-no-rails/
+A simple application that generates a report and uses jobs to paralel process. Example taken from (https://onebitcode.com/dominando-o-uso-de-jobs-no-rails/)
 
 Things you may want to cover:
 
