@@ -19,6 +19,5 @@ class ReportsController < ApplicationController
 
     # flash[:notice] = "Estamos processando seu relatório \\o/"
     redirect_to '/reports'
-    end
   end
 end
